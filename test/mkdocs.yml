@@ -1,9 +1,16 @@
-site_name: Hakim documentation
+site_name: Hakim Documentation
 theme:
   name: material
+  markdown_extensions:
+    - tables
+  copyright: Copyright &copy; 2016 - 2020 Martin Donat
   logo: asset/aldous.jpeg
   font:
     text: Times New Roman
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - content.tabs.link
   palette:
     - scheme: default
       toggle:
@@ -14,6 +21,10 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  extra:
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/PERWIRA203
 
   
     
